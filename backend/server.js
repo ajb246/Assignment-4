@@ -12,28 +12,28 @@ const products = [
     name: "Wilson Basketball",
     price: 49.99,
     description: "Mens Professional Basketball",
-    image: "https://via.placeholder.com/200"
+    image: "basketball-wilson"
   },
   {
     id: 2,
     name: "Boxing Gloves",
     price: 29.99,
     description: "Professional Boxing gloves",
-    image: "https://via.placeholder.com/200"
+    image: "BoxingGloves"
   },
   {
     id: 3,
     name: "Baseball Bat",
     price: 69.99,
     description: "High end Professional Baseball Bat",
-    image: "https://via.placeholder.com/200"
+    image: "Baseball Bat"
   },
   {
     id: 4,
     name: "Foldable Chair",
     price: 29.99,
     description: "Lightweight foldable chair",
-    image: "https://via.placeholder.com/200"
+    image: "Chair.img"
   }
 ];
 
