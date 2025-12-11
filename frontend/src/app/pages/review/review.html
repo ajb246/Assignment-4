@@ -1,0 +1,16 @@
+<div class="container mt-4" *ngIf="product">
+  <h2>Review Your Order</h2>
+
+  <div class="card" style="width: 18rem;">
+    <img [src]="product.image" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">{{ product.name }}</h5>
+      <p class="card-text">{{ product.description }}</p>
+      <p><strong>${{ product.price }}</strong></p>
+
+      <button class="btn btn-success" (click)="submitOrder()">
+        Submit Order
+      </button>
+    </div>
+  </div>
+</div>
